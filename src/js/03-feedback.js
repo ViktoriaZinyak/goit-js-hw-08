@@ -21,9 +21,9 @@ function setDataToStorage(e) {
 
 function resetFormData(e) {
   e.preventDefault();
+  console.log(obj);
   localStorage.clear();
   form.reset();
-  console.log(obj);
 }
 // formValue.email = form.elements.email.value;
 // formValue.message = form.elements.message.value;
